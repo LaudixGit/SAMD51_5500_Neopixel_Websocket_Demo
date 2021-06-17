@@ -12,7 +12,7 @@ A basic wepage is provided to select from a few display options:
 There are also options when the pattern completes:
 * STOP - go to OFF (above)
 * TOGGLE - invert the pattern (eg: color1 becomes color2, then color2 returns to color1, repeat)
-            (when combined with FADE, results is a pulsing pattern)
+            (when combined with FADE, results in a pulsing pattern)
 * REVERSE - pattern runs backward (eg: color2 becomes color1)
 * FORWARD - pattern runs forward (eg: color1 becomes color2)
 
