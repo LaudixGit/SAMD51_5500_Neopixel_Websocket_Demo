@@ -35,5 +35,5 @@ How to use:
 * install the libraries listed at the top of the INO page
 * compile and upload to the SAMD51
 
-This sketch uses the biltin neopixel of the M4 Feather, but by wiring on a neopixel strip, and instantiating with more than 1 pixel this code _should_ work with many piexels (up to 2048 with remaining unsed memory)
-`neopixelLED(<qunatity of pixels>, <pixel-strip control pin>, NEO_GRB + NEO_KHZ800, &neopixelComplete);`
+This sketch uses the built-in neopixel of the M4 Feather, but by wiring on a neopixel strip, and instantiating with more than 1 pixel this code _should_ work with many piexels (up to 2048 with remaining unsed memory)
+   `neopixelLED(<quantity of pixels>, <pixel-strip control pin>, NEO_GRB + NEO_KHZ800, &neopixelComplete);`
