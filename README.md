@@ -30,4 +30,6 @@ There is no security, encryption, nor authentication.
 How to use:
 * clone this locally
 * open in Ardunio IDE
-* install teh libraries listed in the 
+* install the libraries listed at the top of the INO page
+* compile and upload to the SAMD51
+* 
