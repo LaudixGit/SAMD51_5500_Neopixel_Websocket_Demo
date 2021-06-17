@@ -32,4 +32,4 @@ How to use:
 * open in Ardunio IDE
 * install the libraries listed at the top of the INO page
 * compile and upload to the SAMD51
-* 
+
