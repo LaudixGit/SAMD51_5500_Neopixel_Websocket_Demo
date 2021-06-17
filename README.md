@@ -1,6 +1,6 @@
 # SAMD51_5500_Neopixel_Websocket_Demo
 Here is a moderately-complex solution controlling color patterns on a neopixel.
-This may work on other hardware, but is specificlly designed for the [Adafruit SAMD51 M4 Feather](https://www.adafruit.com/product/3857), with a [PoE 5500 network sheild](https://www.amazon.com/gp/product/B08KTVD7BR).
+This may work on other hardware, but is specifically designed for the [Adafruit SAMD51 M4 Feather](https://www.adafruit.com/product/3857), with a [PoE 5500 network sheild](https://www.amazon.com/gp/product/B08KTVD7BR).
 No other hardware is needed.
 
 A basic wepage is provided to select from a few display options:
@@ -18,6 +18,8 @@ There are also options when the pattern completes:
 
 JSCOLOR library is used when selecting colors.
 To send the webpage, there is a workaround used to overcome the 2k-buffer limitation of the Ardunio Ethernet library.
+The code is split into multiple files for readability.
+The neopixel code is implemented as a class for potential reuse in other sketches.
 
 Up to 3 simultaneous clients can connect, and when any client modifies the settings, all clients receive the update and remain in sync.
 (the 5500 can support 8 sockets, so it may be possible 4 clients can simultaneously connect; each requires 2 sockets for HTTP & websocket)
