@@ -21,7 +21,7 @@ To send the webpage, there is a workaround used to overcome the 2k-buffer limita
 The code is split into multiple files for readability.
 The neopixel code is implemented as a class for potential reuse in other sketches.
 
-Up to 3 simultaneous clients can connect, and when any client modifies the settings, all clients receive the update and remain in sync.
+Up to 3 simultaneous clients can connect, and when any client modifies the settings, all clients, through websockets, receive the update and remain in sync.
 (the 5500 can support 8 sockets, so it may be possible 4 clients can simultaneously connect; each requires 2 sockets for HTTP & websocket)
 The settings are transferred in JSON format so it is easy to troubleshoot in clear text (Serial.print and console.log)
 For convenience, the page header reflects connection status (red = disconnected).
