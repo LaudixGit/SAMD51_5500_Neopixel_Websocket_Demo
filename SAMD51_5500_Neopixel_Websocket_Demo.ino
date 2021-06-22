@@ -1,6 +1,5 @@
 /*
- * A non-SSL webserver to read solar power production/consumption
- * and enable/disable outputs.
+ * A non-SSL webserver to change color patterns of a neopixel LED
  * Allows up to to 3 simultaneous clients.
  * 
  * Note: many alternatives available in the original examples have been deleted for clarity
