@@ -18,7 +18,7 @@ There are also options when the pattern completes:
 
 JSCOLOR library is used when selecting colors.
 To send the webpage, there is a workaround used to overcome the 2k-buffer limitation of the Ardunio Ethernet library.
-The code is split into multiple files for readability.
+The code is split into multiple parts for readability.
 The neopixel code is implemented as a class for potential reuse in other sketches.
 
 Up to 3 simultaneous clients can connect, and when any client modifies the settings, all clients receive the update and remain in sync.
