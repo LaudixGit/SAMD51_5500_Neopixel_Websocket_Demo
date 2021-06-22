@@ -37,4 +37,4 @@ How to use:
 
 This sketch uses the built-in neopixel of the M4 Feather, but by connecting a neopixel strip, and instantiating with more than 1 pixel this code _should_ work with many pixels (up to 2048 with remaining unused memory)
 
-    neopixelLED( <quantity of pixels>,  <pixel-strip control pin> , NEO_GRB + NEO_KHZ800, &neopixelComplete);
+    neopixelLED(<quantity of pixels>, <pixel-strip control pin>, NEO_GRB + NEO_KHZ800, &neopixelComplete);
